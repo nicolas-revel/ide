@@ -1,0 +1,235 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  color: #fff5d9;
+}
+
+/* Mise en forme du header */
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #618061;
+  border-bottom: 5px solid #313331;
+}
+
+header img {
+  height: 120px;
+  margin-top: 70px;
+  -webkit-filter: drop-shadow(0 0 10px);
+  filter: drop-shadow(0 0 10px);
+  margin-left: 5%;
+}
+
+header h1 {
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+
+header nav {
+  width: 40%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff5d9;
+  font-size: 20px;
+}
+
+/* Mise en forme du Main */
+
+main {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1500;
+}
+
+#slogan {
+  font-size: 56px;
+  letter-spacing: 5px;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section h2 {
+  margin: 0;
+  margin-top: 50px;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+/* Mise en forme de la partie Teletype et Open-source*/
+
+#teletype,
+#open-source {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#teletype p,
+#open-source p {
+  font-size: 24px;
+  padding: 60px;
+  letter-spacing: 0.5px;
+  line-break: 6px;
+}
+
+#teletype br,
+#open-source br {
+  display: block;
+  content: "";
+  margin-top: 30px;
+}
+
+#teletype img,
+#open-source img {
+  margin: 90px;
+}
+
+/* Mise en forme de la partie communautaire */
+
+#avis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 95%;
+}
+
+#avis p {
+  width: 27%;
+  font-size: 20px;
+  padding: 30px;
+  background-color: #618061c5;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+/* Mise en forme de la partie modèle économique et conclusion */
+
+#eco_conclu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#eco_conclu p {
+  font-size: 22px;
+  padding: 30px;
+  line-height: 40px;
+  letter-spacing: 1px;
+}
+
+/* Mise en forme Liens Utiles */
+
+#liens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: baseline;
+  width: 80%;
+  border-top: 3px solid #222222;
+}
+
+#liens h2 {
+  margin-top: 35px;
+}
+
+#liens ul {
+  list-style: none;
+  text-align: center;
+}
+
+#liens ul li {
+  display: inline-block;
+}
+
+#liens ul li a {
+  display: block;
+  padding: 0px 40px;
+  margin: 0px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+#liens img {
+  height: 50px;
+}
+
+/* Mise en forme du footer */
+
+footer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #618061;
+  border-top: 3px #313331 solid;
+}
+
+footer h1 {
+  align-self: center;
+  margin: 0;
+  margin-left: 5%;
+  font-size: 32px;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 35%;
+  overflow: hidden;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff5d9;
+  font-size: 16px;
+}
+
+footer p {
+  margin-right: 10%;
+}
