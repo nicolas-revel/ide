@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  color: #f1f1f1;
+  background: #4d4d4d;
+}
+
+/* Mise en forme du header */
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cf6b0d;
+  border-bottom: 3px black solid;
+}
+
+header img {
+  height: 70px;
+  margin-left: 3%;
+}
+
+header h1 {
+  font-size: 50px;
+  padding-right: 10%;
+}
+
+header nav {
+  width: 50%;
+  margin-right: 5%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 20px;
+}
+
+/* Mise en forme du main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Mise en forme de la banière du slogan */
+
+#slogan_sublime {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  height: 150px;
+  width: 100%;
+}
+
+#debutslogan {
+  align-self: flex-start;
+  margin: 0;
+  margin-left: 5%;
+}
+
+#finslogan {
+  align-self: flex-end;
+  margin: 0;
+  margin-right: 5%;
+}
+
+#slogan_sublime p {
+  font-size: 38px;
+  width: 100%;
+}
+
+/* Mise en forme des différentes sections */
+
+/* Mise en forme de la partie fonctionnalités */
+
+#fonctionnalite {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#fonctionnalite h2 {
+  font-size: 40px;
+  margin-right: 60%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#gotoanything {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+
+#bckpgotoany {
+  height: 330px;
+  background-color: #333333;
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+#gotoanything p {
+  width: 75%;
+  padding-left: 110px;
+  padding-top: 0px;
+  line-height: 35px;
+  font-size: 24px;
+}
+
+#gotoanything img {
+  height: 250px;
+  padding: 40px;
+  background-color: #cf6b0d;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+#gotodef {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+
+#bckpgotodef {
+  height: 380px;
+  background-color: #333333;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+#gotodef p {
+  width: 80%;
+  padding-left: 50px;
+  padding-top: 10px;
+  line-height: 36px;
+  font-size: 24px;
+}
+
+#gotodef img {
+  height: 300px;
+  padding: 40px;
+  background-color: #cf6b0d;
+  clip-path: polygon(12% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+/* Mise en forme des avis utilisateurs */
+
+#avis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#avis h2 {
+  font-size: 44px;
+}
+
+#avis div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 95%;
+}
+
+#avis p {
+  width: 27%;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #ff7b0070;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+/* Mise en forme du bas de page */
+
+#eco_conclu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 95%;
+}
+
+#eco_conclu section {
+  width: 50%;
+  margin: 20px;
+}
+
+#eco_conclu h2 {
+  font-size: 36px;
+  padding-left: 30px;
+}
+
+#eco_conclu p {
+  font-size: 22px;
+  text-align: justify;
+}
+
+/* Mise en forme bas de page */
+
+#liens {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: baseline;
+  width: 80%;
+  border-top: 3px solid #222222;
+}
+
+#liens h2 {
+  margin-top: 35px;
+}
+
+#liens ul {
+  list-style: none;
+  text-align: center;
+}
+
+#liens ul li {
+  display: inline-block;
+}
+
+#liens ul li a {
+  display: block;
+  padding: 0px 40px;
+  margin: 0px;
+  text-decoration: none;
+  color: #000000;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+#liens img {
+  height: 50px;
+}
+
+/* Mise en forme du footer */
+
+footer {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #cf6b0d;
+  border-top: 3px black solid;
+}
+
+footer h1 {
+  color: #f1f1f1;
+  align-self: center;
+  margin: 0;
+  margin-left: 5%;
+  font-size: 32px;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin-top: 20px;
+  margin-right: 35%;
+  overflow: hidden;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 16px;
+}
+
+footer p {
+  color: #f1f1f1;
+  margin-right: 10%;
+}
