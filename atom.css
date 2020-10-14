@@ -1,4 +1,15 @@
+@font-face {
+  font-family: Josefin-Slab;
+  src: url(font/Josefin_Slab/JosefinSlab-Regular.ttf);
+}
+
+@font-face {
+  font-family: Spartan;
+  src: url(font/Spartan/static/Spartan-Regular.ttf);
+}
+
 body {
+  font-family: Josefin-Slab;
   margin: 0;
   padding: 0;
   display: flex;
@@ -12,6 +23,7 @@ body {
 /* Mise en forme du header */
 
 header {
+  font-family: Spartan;
   height: 80px;
   width: 100%;
   display: flex;
@@ -36,7 +48,7 @@ header h1 {
 }
 
 header nav {
-  width: 40%;
+  width: 50%;
   margin-right: 5%;
 }
 
@@ -195,6 +207,7 @@ main section h2 {
 /* Mise en forme du footer */
 
 footer {
+  font-family: Spartan;
   height: 70px;
   width: 100%;
   display: flex;

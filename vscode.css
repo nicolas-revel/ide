@@ -1,4 +1,15 @@
+@font-face {
+  font-family: Cabin;
+  src: url(font/Cabin/static/Cabin-Regular.ttf);
+}
+
+@font-face {
+  font-family: Spartan;
+  src: url(font/Spartan/static/Spartan-Regular.ttf);
+}
+
 body {
+  font-family: Cabin;
   margin: 0;
   padding: 0;
   display: flex;
@@ -11,6 +22,7 @@ body {
 /* Mise en forme du header */
 
 header {
+  font-family: Spartan;
   height: 80px;
   width: 100%;
   display: flex;
@@ -201,6 +213,7 @@ h2 {
 /* Mise en forme du footer */
 
 footer {
+  font-family: Spartan;
   height: 70px;
   width: 100%;
   display: flex;
